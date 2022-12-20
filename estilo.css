@@ -1,0 +1,75 @@
+	@font-face{
+	font-family: "Press";
+	src: url("../fonts/Press/PressStart2P-Regular.ttf");
+}
+@keyframes colors {
+	0%{
+		background-position: 0% 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0% 50%;
+	}
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	background: linear-gradient(57deg, #181818, #8758FF, #5CB8E4, #FFC600, #E900FF, #5800FF, #000000);
+	background-size: 300% 300%;
+	animation: colors 15s ease infinite;
+}
+body .Total-info{
+	background-color: #222;
+	border-radius: 15px;
+}
+body h3{
+	margin-top: 20px;
+	font-size: 20px;
+	color: #fff;
+	font-family: Press;
+	text-shadow: 2px 2px 2px #5E299A;
+}
+img{
+	margin-top: 20px;
+	border-radius: 100%;
+	width: 75%;
+	margin-left: 10%;
+}
+body .perfil-bio{
+	margin-top: 15px;
+	color: #fff;
+	font-family: Press;
+	text-shadow: 2px 2px 2px #5E299A;
+}
+#search input{
+	border-color: #5E299A;
+	height: 40px;
+	margin-top: 20px;
+	background: transparent;
+}
+body .btn-roxo {
+	margin-top: -6px;
+	color: #fff;
+	background-color: #5E299A;
+	border-color: #5E299A;
+}
+#list-codes{
+	margin-top: 35px;
+	color: #fff;
+	font-family: Press;
+	font-size: 15px;
+	text-shadow: 2px 2px 2px #5E299A;
+}
+body .Git-list{
+	margin-top: 35px;
+	color: #fff;
+	font-family: Press;
+	font-size: 15px;
+	text-shadow: 2px 2px 2px #5E299A;
+
+}
