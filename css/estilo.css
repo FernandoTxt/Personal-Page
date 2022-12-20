@@ -73,3 +73,12 @@ body .Git-list{
 	text-shadow: 2px 2px 2px #5E299A;
 
 }
+body a {
+	position: relative;
+	top: -10px;
+	color: #fff;
+	font-family: Press;
+	font-size: 15px;
+	text-shadow: 2px 2px 2px #5E299A;
+
+}
