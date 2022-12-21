@@ -1,0 +1,25 @@
+@font-face{
+	font-family: "Press";
+	src: url("../fonts/Press/PressStart2P-Regular.ttf");
+}
+@keyframes colors {
+	0%{
+		background-position: 0% 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0% 50%;
+	}
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	background: linear-gradient(30deg, #379237, #54B435, #82CD47, #F0FF42, #00FFF6, #00E7FF, #009EFF, #0014FF);
+	background-size: 300% 300%;
+	animation: colors 10s ease infinite;
+}
